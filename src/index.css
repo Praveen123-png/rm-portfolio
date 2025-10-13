@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.test {
+    @apply text-3xl text-center w-full h-full
+}
+
+.p {
+    color: #210B2C;
+}
+
+.g {
+    color: #FFD166;
+}
