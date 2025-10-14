@@ -4,10 +4,11 @@
     @apply text-3xl text-center w-full h-full
 }
 
-.p {
+.text-p, .bg-p {
     color: #210B2C;
 }
 
-.g {
-    color: #FFD166;
+.text-g,
+.bg-g {
+    color: #FFD700;
 }

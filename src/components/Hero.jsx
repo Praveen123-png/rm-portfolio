@@ -16,8 +16,12 @@ function Hero() {
         </div>
         {/* image side */}
         <div className="flex items-end justify-center ">
-          <img src="/images/heropic.png" alt="HERO" className="h-[90vh] relative z-10" />
-          <div className="bg-[#BC96E6] absolute top-[40%] z-2 opacity-40 h-[400px] w-[400px] rounded-full"></div>
+          <img
+            src="/images/heropic.png"
+            alt="HERO"
+            className="h-[90vh] object-center object-cover relative z-10"
+          />
+          <div className="bg-[#BC96E6] absolute top-[40%] z-2 opacity-40 sm:h-[400px] sm:w-[400px] h-[300px] w-[300px] rounded-full"></div>
         </div>
       </div>
     </>
