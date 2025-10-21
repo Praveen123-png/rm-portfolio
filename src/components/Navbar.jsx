@@ -1,7 +1,7 @@
 function Navbar() {
   return (
     <>
-      <header className="fixed block top-0 left-0 bg-p w-[100vw] z-20">
+      <header className="fixed bp block top-0 left-0 w-[100vw] z-20">
         <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-[8vh]">
             <div className="md:flex md:items-center md:gap-12">
