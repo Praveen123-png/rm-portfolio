@@ -1,14 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @import "tailwindcss";
 
 .test {
-    @apply text-3xl text-center w-full h-full
+    @apply text-3xl text-center w-full h-full;
 }
 
-.text-p, .bg-p {
-    color: #210B2C;
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: clip;
+}
+
+.tp {
+    @apply text-[#210b2c];
+}
+
+.bp {
+    @apply bg-[#210b2c];
+}
+
+.tg {
+    @apply text-[#ffd700];
+}
+
+.gp {
+    @apply bg-[#ffd700];
+}
+
+.text-p,
+.bg-p {
+    color: #210b2c;
 }
 
 .text-g,
 .bg-g {
-    color: #FFD700;
+    color: #ffd700;
 }
