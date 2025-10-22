@@ -2,32 +2,38 @@
 @import "tailwindcss";
 
 .test {
-  @apply text-3xl text-center w-full h-full;
+    @apply text-3xl text-center w-full h-full;
 }
+
 body {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: clip;
 }
+
 .tp {
-  @apply text-[#210b2c];
+    @apply text-[#210b2c];
 }
+
 .bp {
-  @apply bg-[#210b2c];
+    @apply bg-[#210b2c];
 }
+
 .tg {
-  @apply text-[#ffd700];
+    @apply text-[#ffd700];
 }
+
 .gp {
-  @apply bg-[#ffd700];
+    @apply bg-[#ffd700];
 }
 
 .text-p,
 .bg-p {
-  color: #210b2c;
+    color: #210b2c;
 }
 
 .text-g,
 .bg-g {
-  color: #ffd700;
+    color: #ffd700;
 }
