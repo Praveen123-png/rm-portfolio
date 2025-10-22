@@ -1,102 +1,104 @@
 function Experience() {
   return (
     <>
-      <ol className="relative pt-50 space-y-8 before:absolute before:top-0 before:left-1/2 before:h-full before:w-0.5 before:-translate-x-1/2 before:rounded-full before:bg-[#210b2c]">
-        <li className="group h-[50vh] relative grid grid-cols-2 odd:-me-3 even:-ms-3">
+      <ol
+        className="relative py-20 space-y-35 px-20 before:absolute before:top-0 before:left-1/2 before:h-full before:w-0.5 before:-translate-x-1/2 before:rounded-full before:bg-gray-200"
+        id="experience"
+      >
+        <li
+          className="group relative grid grid-cols-2 odd:-me-3 even:-ms-3"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+        >
           <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-right group-even:order-last">
-            <span className="size-3 shrink-0 rounded-full gp"></span>
+            <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
             <div className="-mt-2">
-              <time className="text-lg/none font-medium tp">
-                03/2025 to 06/2025
+              <time className="text-xs font-medium text-gray-700">
+                Jan 2022 – May 2022
               </time>
 
-              <h3 className="text-2xl pt-3 font-bold tg">
-                Ebitaus private limitedSoftware
+              <h3 className="text-lg font-bold text-gray-900">
+                Full-Stack Developer Intern — Xlicon Business Services Pvt. Ltd.
               </h3>
 
-              <ul className="mt-5 space-y-5 text-end pl-70 text-md tp ">
-                <li>
-                  Software Engineer with 3 months of hands-on experience in
-                  building modern, responsive web applications using Angular.
-                </li>
-                <li>
-                  Skilled in creating scalable, maintainable, and user-friendly
-                  interfaces with a strong focus on performance and usability.
-                </li>
-                <li>
-                  Passionate about frontend technologies and continuously
-                  learning through real-world projects and self-driven practice.
-                </li>
-              </ul>
+              <p className="mt-0.5 text-sm text-gray-700">
+                Worked as a <strong>Full-Stack Developer Intern</strong> at{" "}
+                <strong>Xlicon Business Services</strong>, where I built a web
+                application for a fishing company to streamline inventory
+                tracking and material procurement. Gained hands-on experience in{" "}
+                <strong>C#, .NET, and Visual Basic</strong> while improving
+                backend logic and data management efficiency.
+              </p>
             </div>
           </div>
 
           <div aria-hidden="true"></div>
         </li>
 
-        <li className="group h-[50vh] relative grid grid-cols-2 odd:-me-3 even:-ms-3">
+        <li
+          className="group relative grid grid-cols-2 odd:-me-3 even:-ms-3"
+          data-aos="fade-up-left"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="top-bottom"
+        >
           <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-right group-even:order-last">
-            <span className="size-3 shrink-0 rounded-full gp"></span>
+            <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
             <div className="-mt-2">
-              <time className="text-lg/none font-medium tp">
-                08/2022 to 02/2025
+              <time className="text-xs font-medium text-gray-700">
+                Aug 2022 – Feb 2025
               </time>
 
-              <h3 className="text-2xl pt-3 font-bold tg">Savyasasy</h3>
+              <h3 className="text-lg font-bold text-gray-900">
+                Software Engineer — Ebitaus Private Limited
+              </h3>
 
-              <ul className="mt-5 space-y-5 text-start w-[70%] text-md tp">
-                <li>
-                  As a Web Developer with over 3 years of experience in software
-                  engineering and web development, I excel in both Front-End
-                  technologies and Back-End development.
-                </li>
-                <li>
-                  I have consistently demonstrated a proven track record of
-                  architecting, developing, and implementing interactive
-                  websites.
-                </li>
-                <li>
-                  I also learned to manage website cookies and created a
-                  communication website for office colleagues.
-                </li>
-              </ul>
+              <p className="mt-0.5 text-sm text-gray-700">
+                Served as a <strong>Software Engineer</strong> at{" "}
+                <strong>Ebitaus Pvt Ltd</strong>, developing modern, responsive
+                web applications using{" "}
+                <strong>Angular, Node.js, and PostgreSQL</strong>. Focused on
+                improving performance, usability, and scalability. Led UI/UX
+                enhancements for major products such as
+                <strong> VGN Smart Call</strong> and{" "}
+                <strong>School Chimes</strong>, achieving over 70% better client
+                engagement and smoother communication systems.
+              </p>
             </div>
           </div>
 
           <div aria-hidden="true"></div>
         </li>
 
-        <li className="group h-[50vh] relative grid grid-cols-2 odd:-me-3 even:-ms-3">
+        <li
+          className="group relative grid grid-cols-2 odd:-me-3 even:-ms-3"
+          data-aos="fade-up-right"
+          data-aos-duration="1000"
+        >
           <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-right group-even:order-last">
-            <span className="size-3 shrink-0 rounded-full gp"></span>
+            <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
             <div className="-mt-2">
-              <time className="text-lg/none font-medium tp">
-                01/2022 to 05/2022
+              <time className="text-xs font-medium text-gray-700">
+                Mar 2025 – Present
               </time>
 
-              <h3 className="text-2xl pt-3 font-bold tg">
-                Xlicon Business Services Private Limited
+              <h3 className="text-lg font-bold text-gray-900">
+                Business Development Executive & Channel Partner — Multiple IT
+                Firms
               </h3>
 
-              <ul className="mt-5 space-y-5 text-end pl-70 text-md tp ">
-                <li>
-                  During my six-month internship at Xlicon Services Business
-                  Center, I gained hands-on experience as a full stack
-                  developer.
-                </li>
-                <li>
-                  Throughout this period, I acquired proficiency in DotNet, C#,
-                  and some Visual Basic.
-                </li>
-                <li>
-                  Developed a web application for a fishing company, enabling
-                  efficient tracking of hook inventory, waste management, and
-                  material procurement and usage.
-                </li>
-              </ul>
+              <p className="mt-0.5 text-sm text-gray-700">
+                Currently working as a{" "}
+                <strong>Business Development Executive</strong> and
+                <strong> Channel Partner</strong> for multiple{" "}
+                <strong>IT companies</strong>, focusing on strategic
+                partnerships, lead generation, and growth. Also manages an{" "}
+                <strong>import and export business</strong> in fruits and
+                vegetables, expanding cross-industry expertise in technology and
+                trade operations.
+              </p>
             </div>
           </div>
 

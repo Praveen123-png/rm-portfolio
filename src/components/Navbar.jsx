@@ -16,7 +16,7 @@ function Navbar() {
                   <li>
                     <a
                       className="text-xl font-bold text-white transition hover:text-g"
-                      href="#"
+                      href="#experience"
                     >
                       {" "}
                       About{" "}
