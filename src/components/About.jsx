@@ -33,11 +33,11 @@ function About() {
     //     </div>
     //   </div>
     // </div>
-    <div className="my-200">
+    <div className="">
       <div className="px-5">
-        <div className="bg-[#210b2c] w-full rounded-2xl p-10">
+        <div className="bg-gradient-to-br from-[#210b2c] to-[#5c2a72] w-full rounded-2xl p-2 lg:p-10">
           <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
-            <div className=" p-5 pb-20 rounded-xl text-white flex justify-center items-end">
+            <div className=" p-5 lg:pb-20 rounded-xl text-white flex justify-center items-end">
               <p>Passionate about turning ideas into impactful digital experiences.</p>
             </div>
 
