@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <div className="bp h-[100vh] grid grid-cols-1 md:grid-cols-2 text-white [clip-path:polygon(0_0,100%_0,100%_90%,50%_100%,0_90%)]">
+      <div className="bg-gradient-to-br from-[#210b2c] to-[#5c2a72] h-[100vh] grid grid-cols-1 md:grid-cols-2 text-white [clip-path:polygon(0_0,100%_0,100%_90%,50%_100%,0_90%)]">
         {/* content-side */}
         <div className="pt-[8vh] pl-10 flex flex-col justify-center gap-10">
           <h2 className="pl-4 text-4xl font-bold border-l-4 border-white text-g">
