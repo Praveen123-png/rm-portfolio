@@ -43,7 +43,9 @@ function About() {
             </div> */}
 
             <div className="p-5 rounded-xl lg:col-span-2 text-[#210b2c]">
-              <h2 className="text-5xl font-semibold">Let's know more about me</h2>
+              <h2 className="text-5xl font-semibold">
+                Let's know more about me
+              </h2>
               <div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8 mt-10">
                 <div className="p-5 pl-0 rounded-xl text-[#210b2c]">
                   <p className="text-lg">This is me</p>
@@ -52,10 +54,12 @@ function About() {
                 <div className="p-5 pl-0 rounded-xl lg:col-span-2 text-gray-900">
                   <p className="">
                     I'm a{" "}
-                    <span className="font-semibold text-xl">versatile professional</span>{" "}
-                    with <span className="font-semibold text-xl">3+</span> years of
-                    experience in IT software development and digital marketing sales. To
-                    combine my{" "}
+                    <span className="font-semibold text-xl">
+                      versatile professional
+                    </span>{" "}
+                    with <span className="font-semibold text-xl">3+</span> years
+                    of experience in IT software development and digital
+                    marketing sales. To combine my{" "}
                     <span className="font-semibold text-xl">
                       technical and marketing expertise
                     </span>{" "}
@@ -70,23 +74,29 @@ function About() {
                 <div className=" rounded space-y-5 mb-10">
                   <h2 className="text-gray-900">(01)</h2>
                   <hr className="w-[80%] mt-2 text-black" />
-                  <h2 className="text-[#210b2c] text-2xl">Professional Experience</h2>
-                  <p className="text-gray-900">
-                    Boosting business growth through strategic marketing, client
-                    engagement, and performance-driven campaigns - enhancing brand
-                    visibility and lasting relationships.
-                  </p>
+
+                  <h2 className="text-[#210b2c] text-2xl">
+                    Professional Experience
+                  </h2>
                 </div>
 
                 <div className=" rounded space-y-5 mb-10">
                   <h2 className="text-gray-900">(02)</h2>
                   <hr className="w-[80%] mt-2 text-black" />
-                  <h2 className="text-[#210b2c] text-2xl">Software Development</h2>
+
+                  <h2 className="text-[#210b2c] text-2xl">
+                    Software Development
+                  </h2>
+
+                  <h2 className="text-[#210b2c] text-2xl">
+                    Software Development
+                  </h2>
+
                   <p className="text-gray-900">
                     Building scalable web applications with Angular and Node.js,
-                    delivering responsive UIs, seamless APIs, and efficient backend
-                    integrations through collaborative development and clean coding
-                    practices.
+                    delivering responsive UIs, seamless APIs, and efficient
+                    backend integrations through collaborative development and
+                    clean coding practices.
                   </p>
                 </div>
 
@@ -95,9 +105,10 @@ function About() {
                   <hr className="w-[80%] mt-2 text-black" />
                   <h2 className="text-[#210b2c] text-2xl">Freelance works</h2>
                   <p className="text-gray-900">
-                    Alongside my career, I freelance as a branding and advertising
-                    consultant, helping businesses craft impactful digital identities that
-                    connect with audiences and drive growth.
+                    Alongside my career, I freelance as a branding and
+                    advertising consultant, helping businesses craft impactful
+                    digital identities that connect with audiences and drive
+                    growth.
                   </p>
                 </div>
 
@@ -106,19 +117,19 @@ function About() {
                   <hr className="w-[80%] mt-2 text-black" />
                   <h2 className="text-[#210b2c] text-2xl">My key focus</h2>
                   <p className="text-gray-900">
-                    Specializing in personal branding, creative direction, and social
-                    media growth — helping professionals build a strong online identity
-                    through impactful design, targeted ads, and strategic digital
-                    consulting.
+                    Specializing in personal branding, creative direction, and
+                    social media growth — helping professionals build a strong
+                    online identity through impactful design, targeted ads, and
+                    strategic digital consulting.
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* <div>
+        <div>
           <img src="/images/waves.svg" alt="" className="w-full rounded-2xl" />
-        </div> */}
+        </div>
       </div>
     </div>
   );
