@@ -74,22 +74,24 @@ function About() {
                 <div className=" rounded space-y-5 mb-10">
                   <h2 className="text-gray-900">(01)</h2>
                   <hr className="w-[80%] mt-2 text-black" />
+
                   <h2 className="text-[#210b2c] text-2xl">
                     Professional Experience
                   </h2>
-                  <p className="text-gray-900">
-                    Boosting business growth through strategic marketing, client
-                    engagement, and performance-driven campaigns - enhancing
-                    brand visibility and lasting relationships.
-                  </p>
                 </div>
 
                 <div className=" rounded space-y-5 mb-10">
                   <h2 className="text-gray-900">(02)</h2>
                   <hr className="w-[80%] mt-2 text-black" />
+
                   <h2 className="text-[#210b2c] text-2xl">
                     Software Development
                   </h2>
+
+                  <h2 className="text-[#210b2c] text-2xl">
+                    Software Development
+                  </h2>
+
                   <p className="text-gray-900">
                     Building scalable web applications with Angular and Node.js,
                     delivering responsive UIs, seamless APIs, and efficient
@@ -125,9 +127,9 @@ function About() {
             </div>
           </div>
         </div>
-        {/* <div>
+        <div>
           <img src="/images/waves.svg" alt="" className="w-full rounded-2xl" />
-        </div> */}
+        </div>
       </div>
     </div>
   );

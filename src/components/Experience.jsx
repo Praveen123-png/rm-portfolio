@@ -1,7 +1,7 @@
 function Experience() {
   return (
     <>
-      <span className="pl-15 flex items-center">
+      <span className="pl-15 flex items-center my-10">
         <span className="shrink-0 pe-4 text-gray-900 text-5xl font-bold">
           Experience
         </span>
