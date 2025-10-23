@@ -5,7 +5,7 @@ function Navbar() {
         <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-[8vh]">
             <div className="md:flex md:items-center md:gap-12">
-              <h1 className="text-xl font-bold text-white">
+              <h1 className="text-xl font-bold text-[#D1D1C7]">
                 RM | Engineer • Entrepreneur • Exporter
               </h1>
             </div>
@@ -15,7 +15,7 @@ function Navbar() {
                 <ul className="flex items-center gap-10 text-sm">
                   <li>
                     <a
-                      className="text-xl font-bold text-white transition hover:text-g"
+                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
                       href="#experience"
                     >
                       {" "}
@@ -25,7 +25,7 @@ function Navbar() {
 
                   <li>
                     <a
-                      className="text-xl font-bold text-white transition hover:text-g"
+                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
                       href="#"
                     >
                       {" "}
@@ -35,7 +35,7 @@ function Navbar() {
 
                   <li>
                     <a
-                      className="text-xl font-bold text-white transition hover:text-g"
+                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
                       href="#"
                     >
                       {" "}
@@ -45,7 +45,7 @@ function Navbar() {
 
                   <li>
                     <a
-                      className="text-xl font-bold text-white transition hover:text-g"
+                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
                       href="#"
                     >
                       {" "}
@@ -54,7 +54,7 @@ function Navbar() {
                   </li>
                   <li>
                     <a
-                      className="text-xl font-bold text-white transition hover:text-g"
+                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
                       href="#"
                     >
                       {" "}
