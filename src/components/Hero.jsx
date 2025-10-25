@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <>
-      <div className="bg-[linear-gradient(0deg,_#65238c,_#210b2c)] md:h-[100vh] h-[70vh] grid grid-cols-1 md:grid-cols-2 text-[#D1D1C7]">
+      <div className="bg-[linear-gradient(0deg,_#65238c,_#210b2c)] md:h-[100vh] h-[80vh] grid grid-cols-1 md:grid-cols-2 text-[#D1D1C7]">
         {/* content-side */}
         <div className="pt-[8vh] pl-10 flex flex-col justify-center gap-10">
           <h2 className="pl-4 lg:text-4xl md:text-3xl text-2xl font-bold border-l-4 border-white text-g">

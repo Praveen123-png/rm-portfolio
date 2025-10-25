@@ -4,6 +4,16 @@
 .test {
   @apply text-3xl text-center w-full h-full;
 }
+@font-face {
+  font-family: "Umar"; /* Choose a name for your font */
+  src: url("/fonts/Autograph.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.autoGraph {
+  font-family: Umar;
+}
 
 body {
   font-family: "Poppins", sans-serif;
