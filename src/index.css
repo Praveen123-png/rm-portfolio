@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap");
+
 @import "tailwindcss";
 
 .test {
   @apply text-3xl text-center w-full h-full;
 }
+.brandFont {
+  font-family: "Zen Dots", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "Umar"; /* Choose a name for your font */
   src: url("/fonts/Autograph.ttf") format("ttf");
@@ -12,7 +20,7 @@
 }
 
 .autoGraph {
-  font-family: Umar;
+  font-family: "Umar";
 }
 
 body {

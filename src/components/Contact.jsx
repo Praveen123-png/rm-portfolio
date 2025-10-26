@@ -23,7 +23,17 @@ function Contact() {
     const message = form.message.value;
 
     // setFormValues({ name, mail, message });
-    console.log("name: ", name, "\n", "mail: ", mail, "\n", "message: ", message, "\n");
+    console.log(
+      "name: ",
+      name,
+      "\n",
+      "mail: ",
+      mail,
+      "\n",
+      "message: ",
+      message,
+      "\n"
+    );
 
     const subject = encodeURIComponent(`Message from ${name}`);
     const body = encodeURIComponent(
@@ -60,9 +70,14 @@ function Contact() {
           id="Contact"
           className="sm:w-[36rem] w-full mx-auto my-10 px-6 sm:px-10 xl:px-14 py-12 rounded-2xl backdrop-blur-xl bg-[rgba(209,209,199,0.05)] border border-[rgba(255,255,255,0.1)] shadow-[0_4px_30px_rgba(0,0,0,0.1)]"
         >
-          <h2 className="text-center text-white font-medium mb-8">Say Hello!</h2>
+          <h2 className="text-center text-white font-medium mb-8">
+            Say Hello!
+          </h2>
 
-          <form className="space-y-4 gform text-[#D1D1C7]" onSubmit={sendMessage}>
+          <form
+            className="space-y-4 gform text-[#D1D1C7]"
+            onSubmit={sendMessage}
+          >
             <input
               type="text"
               style={{ display: "none" }}
