@@ -2,11 +2,14 @@ function Experience() {
   return (
     <>
       <span className="pl-15 flex items-center my-10">
-        <span className="shrink-0 pe-4 text-gray-900 text-5xl font-bold">
+        <span
+          className="shrink-0 pe-4 text-gray-900 text-5xl font-bold"
+          data-aos="fade-up-right"
+        >
           Experience
         </span>
 
-        <span className="h-px flex-1 bg-gradient-to-l from-transparent to-[#ffd700]"></span>
+        <span className="h-1 rounded-full flex-1 bg-gradient-to-l from-transparent to-[#ffd700]"></span>
       </span>
 
       <ol
@@ -14,10 +17,15 @@ function Experience() {
         id="experience"
       >
         <li className="group relative grid grid-cols-2 odd:-me-3 even:-ms-3">
-          <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-right group-even:order-last">
+          <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-left group-even:order-last">
             <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
-            <div className="-mt-2">
+            <div
+              className="-mt-2 hover:-translate-y-3 hover:bg-violet-200 transition-all ease-linear bg-violet-100 rounded-2xl p-5"
+              data-aos="fade-up-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <time className="text-sm font-medium text-gray-700">
                 Jan 2022 – May 2022
               </time>
@@ -44,7 +52,12 @@ function Experience() {
           <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-right group-even:order-last">
             <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
-            <div className="-mt-2">
+            <div
+              className="-mt-2 hover:-translate-y-3 hover:bg-violet-200 bg-violet-100 transition-all ease-linear rounded-2xl p-5"
+              data-aos="fade-up-left"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <time className="text-sm font-medium text-gray-700">
                 Aug 2022 – Feb 2025
               </time>
@@ -71,10 +84,15 @@ function Experience() {
         </li>
 
         <li className="group relative grid grid-cols-2 odd:-me-3 even:-ms-3">
-          <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-right group-even:order-last">
+          <div className="relative flex items-start gap-4 group-odd:flex-row-reverse group-odd:text-left group-even:order-last">
             <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
-            <div className="-mt-2">
+            <div
+              className="-mt-2 hover:-translate-y-3 hover:bg-violet-200 bg-violet-100 transition-all ease-linear rounded-2xl p-5"
+              data-aos="fade-up-right"
+              data-aos-easing="linear"
+              data-aos-duration="1000"
+            >
               <time className="text-sm font-medium text-gray-700">
                 Mar 2025 – Present
               </time>
@@ -100,11 +118,12 @@ function Experience() {
           <div aria-hidden="true"></div>
         </li>
       </ol>
+      {/* for mobile */}
       <ol className="relative md:hidden block px-10 space-y-8 before:absolute before:-ml-px before:h-full before:w-0.5 before:rounded-full before:bg-gray-200">
         <li className="relative -ms-1.5 flex items-start gap-4">
           <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
-          <div className="-mt-2">
+          <div className="-mt-2 ">
             <time className="text-xs/none font-medium text-gray-700">
               Jan 2022 – May 2022
             </time>
