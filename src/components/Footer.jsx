@@ -10,9 +10,7 @@ function Footer() {
               Contact For Business
             </h2>
 
-            <p className="mx-auto mt-4 max-w-sm text-[#D1D1C7]">
-              Just 1 step Away
-            </p>
+            <p className="mx-auto mt-4 max-w-sm text-[#424242]">Just 1 step Away</p>
 
             <a
               href="tel:+919384721690"
@@ -26,10 +24,7 @@ function Footer() {
           <div className="mt-16  border-t pb-5 px-10 bg-[linear-gradient(0deg,_#65238c,_#210b2c)] border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
             <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
               <li className="group">
-                <a
-                  href="#"
-                  className="text-[#D1D1C7]  transition-all ease-linear"
-                >
+                <a href="#" className="text-[#D1D1C7]  transition-all ease-linear">
                   <span className="">© 2025. </span>
                   <span className="brandFont inline-block group-hover:scale-110 group-hover:-translate-y-4 transition-all">
                     U & P Devs.
