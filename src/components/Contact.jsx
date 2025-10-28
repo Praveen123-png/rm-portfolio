@@ -60,7 +60,7 @@ function Contact() {
       <div className="relative flex h-full w-full flex-col items-center justify-between rounded-2xl bg-[linear-gradient(0deg,_#65238c,_#210b2c)] bg-cover border border-white/10 shadow-lg backdrop-blur-xl p-[var(--space-md)]">
         {/* Heading */}
         <h2 className="pt-10 text-center font-semibold uppercase">
-          <div className="sm:text-8xl text-6xl text-[#D1D1C7] flex">
+          <div className="sm:text-8xl text-5xl text-[#D1D1C7] flex">
             Let's Make <br /> It Happen
           </div>
         </h2>
