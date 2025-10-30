@@ -5,14 +5,12 @@ function Footer() {
     <>
       <footer className="bg-white">
         <div className="mx-auto ">
-          <div className="text-center">
+          {/* <div className="text-center">
             <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl">
               Contact For Business
             </h2>
 
-            <p className="mx-auto mt-4 max-w-sm text-[#D1D1C7]">
-              Just 1 step Away
-            </p>
+            <p className="mx-auto mt-4 max-w-sm text-[#424242]">Just 1 step Away</p>
 
             <a
               href="tel:+919384721690"
@@ -21,15 +19,12 @@ function Footer() {
             >
               Say Hi
             </a>
-          </div>
+          </div> */}
 
           <div className="mt-16  border-t pb-5 px-10 bg-[linear-gradient(0deg,_#65238c,_#210b2c)] border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
             <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
               <li className="group">
-                <a
-                  href="#"
-                  className="text-[#D1D1C7]  transition-all ease-linear"
-                >
+                <a href="#" className="text-[#D1D1C7]  transition-all ease-linear">
                   <span className="">© 2025. </span>
                   <span className="brandFont inline-block group-hover:scale-110 group-hover:-translate-y-4 transition-all">
                     U & P Devs.
@@ -56,11 +51,11 @@ function Footer() {
                     version="1.1"
                     xmlns="http://www.w3.org/2000/svg"
                   >
-                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g
                       id="SVGRepo_tracerCarrier"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
                     ></g>
                     <g id="SVGRepo_iconCarrier">
                       {" "}
