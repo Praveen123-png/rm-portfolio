@@ -16,7 +16,7 @@ function Navbar() {
                   <li>
                     <a
                       className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
-                      href="#experience"
+                      href="#about"
                     >
                       {" "}
                       About{" "}
@@ -26,7 +26,7 @@ function Navbar() {
                   <li>
                     <a
                       className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
-                      href="#"
+                      href="#exp"
                     >
                       {" "}
                       Experience{" "}
@@ -55,7 +55,7 @@ function Navbar() {
                   <li>
                     <a
                       className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
-                      href="#"
+                      href="#contact"
                     >
                       {" "}
                       Contact{" "}

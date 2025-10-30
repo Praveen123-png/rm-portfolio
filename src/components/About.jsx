@@ -33,7 +33,7 @@ function About() {
     //     </div>
     //   </div>
     // </div>
-    <div className="mt-10">
+    <div className="mt-10" id="about">
       <div className="">
         {/* <div className="bg-gradient-to-br from-[#210b2c] to-[#5c2a72] w-full rounded-2xl p-2 lg:p-10"> */}
         <div className="w-full p-2 lg:p-10 bg-[url('/images/waves-2.svg')] bg-bottom bg-cover">
@@ -44,7 +44,7 @@ function About() {
 
             <div className="p-5 rounded-xl lg:col-span-2 text-[#210b2c]">
               <div className="flex justify-center items-center gap-5">
-                <h2 className="text-5xl font-semibold" data-aos="fade-up-right">
+                <h2 className="text-5xl font-semibold" data-aos="fade-up-left">
                   Let's know more about me
                 </h2>
                 <span className="h-1 rounded-full flex-1 bg-gradient-to-l from-transparent to-[#ffd700]"></span>
@@ -79,81 +79,86 @@ function About() {
               </div>
               <div className="grid grid-cols-1 gap-4 lg:grid-cols-4 lg:gap-8 mt-10">
                 <div
-                  className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-duration="1000"
                 >
-                  <h2 className="text-gray-900">(01)</h2>
-                  <hr className="w-[80%] mt-2 text-black" />
+                  <div className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear">
+                    <h2 className="text-gray-900">(01)</h2>
+                    <hr className="w-[80%] mt-2 text-black" />
 
-                  <h2 className="text-[#210b2c] text-2xl">
-                    Professional Experience
-                  </h2>
+                    <h2 className="text-[#210b2c] text-2xl">
+                      Professional Experience
+                    </h2>
 
-                  <p className="text-gray-900">
-                    Boosting business growth through strategic marketing, client
-                    engagement, and performance-driven campaigns - enhancing
-                    brand visibility and lasting relationships.
-                  </p>
+                    <p className="text-gray-900">
+                      Boosting business growth through strategic marketing,
+                      client engagement, and performance-driven campaigns -
+                      enhancing brand visibility and lasting relationships.
+                    </p>
+                  </div>
                 </div>
-
                 <div
-                  className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear"
                   data-aos="fade-up"
-                  data-aos-easing="linear"
                   data-aos-delay="200"
+                  data-aos-easing="linear"
                   data-aos-duration="1000"
                 >
-                  <h2 className="text-gray-900">(02)</h2>
-                  <hr className="w-[80%] mt-2 text-black" />
+                  <div
+                    className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear"
+                    data-aos-duration="1000"
+                  >
+                    <h2 className="text-gray-900">(02)</h2>
+                    <hr className="w-[80%] mt-2 text-black" />
 
-                  <h2 className="text-[#210b2c] text-2xl">
-                    Software Development
-                  </h2>
+                    <h2 className="text-[#210b2c] text-2xl">
+                      Software Development
+                    </h2>
 
-                  <p className="text-gray-900">
-                    Building scalable web applications with Angular and Node.js,
-                    delivering responsive UIs, seamless APIs, and efficient
-                    backend integrations through collaborative development and
-                    clean coding practices.
-                  </p>
+                    <p className="text-gray-900">
+                      Building scalable web applications with Angular and
+                      Node.js, delivering responsive UIs, seamless APIs, and
+                      efficient backend integrations through collaborative
+                      development and clean coding practices.
+                    </p>
+                  </div>
                 </div>
-
                 <div
-                  className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear"
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-delay="300"
                   data-aos-duration="1000"
                 >
-                  <h2 className="text-gray-900">(03)</h2>
-                  <hr className="w-[80%] mt-2 text-black" />
-                  <h2 className="text-[#210b2c] text-2xl">Freelance works</h2>
-                  <p className="text-gray-900">
-                    Alongside my career, I freelance as a branding and
-                    advertising consultant, helping businesses craft impactful
-                    digital identities that connect with audiences and drive
-                    growth.
-                  </p>
+                  <div className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear">
+                    <h2 className="text-gray-900">(03)</h2>
+                    <hr className="w-[80%] mt-2 text-black" />
+                    <h2 className="text-[#210b2c] text-2xl">Freelance works</h2>
+                    <p className="text-gray-900">
+                      Alongside my career, I freelance as a branding and
+                      advertising consultant, helping businesses craft impactful
+                      digital identities that connect with audiences and drive
+                      growth.
+                    </p>
+                  </div>
                 </div>
-
                 <div
-                  className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear"
+                  className=""
                   data-aos="fade-up"
                   data-aos-easing="linear"
                   data-aos-delay="300"
                   data-aos-duration="1000"
                 >
-                  <h2 className="text-gray-900">(04)</h2>
-                  <hr className="w-[80%] mt-2 text-black" />
-                  <h2 className="text-[#210b2c] text-2xl">My key focus</h2>
-                  <p className="text-gray-900">
-                    Specializing in personal branding, creative direction, and
-                    social media growth — helping professionals build a strong
-                    online identity through impactful design, targeted ads, and
-                    strategic digital consulting.
-                  </p>
+                  <div className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear">
+                    <h2 className="text-gray-900">(04)</h2>
+                    <hr className="w-[80%] mt-2 text-black" />
+                    <h2 className="text-[#210b2c] text-2xl">My key focus</h2>
+                    <p className="text-gray-900">
+                      Specializing in personal branding, creative direction, and
+                      social media growth — helping professionals build a strong
+                      online identity through impactful design, targeted ads,
+                      and strategic digital consulting.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
