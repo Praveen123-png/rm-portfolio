@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import About from "./components/About.jsx";
+import Service from "./components/Service.jsx";
 import Experience from "./components/Experience.jsx";
 import Footer from "./components/Footer.jsx";
 import Hero from "./components/Hero.jsx";
@@ -26,6 +27,7 @@ function App() {
       <Hero />
       <Navbar />
       <About />
+      <Service />
       <Experience />
       <Projects />
       <Skills />
