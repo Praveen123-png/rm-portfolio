@@ -36,7 +36,7 @@ function Navbar() {
                   <li>
                     <a
                       className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
-                      href="#"
+                      href="#projects"
                     >
                       {" "}
                       Projects{" "}
