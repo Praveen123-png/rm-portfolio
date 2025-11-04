@@ -3,6 +3,11 @@
 
 @import "tailwindcss";
 
+@theme {
+  --color-gold: #ffd700;
+  /* --color-purple:  */
+}
+
 .test {
   @apply text-3xl text-center w-full h-full;
 }

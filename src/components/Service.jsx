@@ -5,19 +5,19 @@ function HeroSlider() {
 
   const slides = [
     {
-      image: "/images/DM.png",
-      //   heading: "Digital Marketing",
-      //   text: "We help your business grow online — by reaching the right audience, boosting your visibility, and turning visitors into loyal customers.",
+      image: "/images/dm-3.jpg",
+      heading: "premium fruits and vegetables",
+      text: "Leading supplier of",
     },
     {
-      image: "/images/2.jpg",
-      //   heading: "Fresh, Crispy, Delightful",
-      //   text: "From murukku to laddus, enjoy snacks that are perfectly crunchy and irresistibly flavorful.",
+      image: "/images/dm.jpg",
+      heading: "Digital Marketing Services",
+      text: "We Provide",
     },
     {
-      image: "/images/DM1.jpg",
-      //   heading: "Celebrate Every Moment",
-      //   text: "Whether it's festivals, family gatherings, or daily treats, Palagaara Petti adds joy to every occasion.",
+      image: "/images/dm-2.jpg",
+      heading: "One partner for all your digital needs.",
+      text: "Websites. Web Apps.",
     },
   ];
 
@@ -39,7 +39,7 @@ function HeroSlider() {
         <span className="h-1 rounded-full flex-1 bg-gradient-to-l from-transparent to-[#ffd700]"></span>
       </span>
       <div className="flex items-center justify-center rounded-2xl">
-        <div className="relative rounded-2xl  h-[80vh] w-[80vw] overflow-hidden">
+        <div className="relative rounded-2xl  h-[70vh] w-[70vw] overflow-hidden">
           {slides.map((slide, index) => (
             <div
               key={index}
@@ -49,11 +49,13 @@ function HeroSlider() {
               style={{ backgroundImage: `url(${slide.image})` }}
             >
               <div className="relative z-10 flex items-center justify-start h-full text-white px-4">
-                <div className="max-w-4xl">
+                <div className="lg:max-w-3xl pl-4">
+                  <p className="text-xl md:text-2xl text-gold font-bold pb-3">
+                    {slide.text}
+                  </p>
                   <h1 className="text-4xl md:text-6xl font-bold mb-4">
                     {slide.heading}
                   </h1>
-                  <p className="text-xl md:text-2xl">{slide.text}</p>
                 </div>
               </div>
             </div>
