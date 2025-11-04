@@ -84,8 +84,8 @@ function About() {
                   data-aos-duration="1000"
                 >
                   <div className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear">
-                    <h2 className="text-gray-900">(01)</h2>
-                    <hr className="w-[80%] mt-2 text-black" />
+                    {/* <h2 className="text-gray-900">(01)</h2> */}
+                    {/* <hr className="w-[80%] mt-2 text-black" /> */}
 
                     <h2 className="text-[#210b2c] text-2xl">
                       Professional Experience
@@ -108,8 +108,8 @@ function About() {
                     className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear"
                     data-aos-duration="1000"
                   >
-                    <h2 className="text-gray-900">(02)</h2>
-                    <hr className="w-[80%] mt-2 text-black" />
+                    {/* <h2 className="text-gray-900">(02)</h2> */}
+                    {/* <hr className="w-[80%] mt-2 text-black" /> */}
 
                     <h2 className="text-[#210b2c] text-2xl">
                       Software Development
@@ -130,8 +130,8 @@ function About() {
                   data-aos-duration="1000"
                 >
                   <div className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear">
-                    <h2 className="text-gray-900">(03)</h2>
-                    <hr className="w-[80%] mt-2 text-black" />
+                    {/* <h2 className="text-gray-900">(03)</h2> */}
+                    {/* <hr className="w-[80%] mt-2 text-black" /> */}
                     <h2 className="text-[#210b2c] text-2xl">Freelance works</h2>
                     <p className="text-gray-900">
                       Alongside my career, I freelance as a branding and
@@ -149,8 +149,8 @@ function About() {
                   data-aos-duration="1000"
                 >
                   <div className="rounded space-y-5 mb-10  hover:-translate-y-3 transition-all ease-linear">
-                    <h2 className="text-gray-900">(04)</h2>
-                    <hr className="w-[80%] mt-2 text-black" />
+                    {/* <h2 className="text-gray-900">(04)</h2> */}
+                    {/* <hr className="w-[80%] mt-2 text-black" /> */}
                     <h2 className="text-[#210b2c] text-2xl">My key focus</h2>
                     <p className="text-gray-900">
                       Specializing in personal branding, creative direction, and

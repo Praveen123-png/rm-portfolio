@@ -18,7 +18,7 @@ function Projects() {
         <div className="-my-4 gap-5 flex flex-col divide-y divide-gray-200">
           <details className="bg-violet-100 hover:bg-violet-200 rounded-2xl group lg:px-20 md:px-15 sm:px-10 px-5 transition-all ease-in py-10 [&amp;_summary::-webkit-details-marker]:hidden">
             <summary className="flex items-center justify-between gap-8 text-gray-900 cursor-pointer">
-              <h2 className="text-4xl">01</h2>
+              {/* <h2 className="text-4xl">01</h2> */}
 
               <h2 className="text-3xl font-semibold">SCHOOL CHIMES</h2>
 
@@ -61,7 +61,7 @@ function Projects() {
 
           <details className="bg-violet-100 hover:bg-violet-200 rounded-2xl group lg:px-20 md:px-15 sm:px-10 px-5 transition-all ease-in py-10 [&amp;_summary::-webkit-details-marker]:hidden">
             <summary className="flex items-center justify-between gap-8 text-gray-900 cursor-pointer">
-              <h2 className="text-4xl">02</h2>
+              {/* <h2 className="text-4xl">02</h2> */}
 
               <h2 className="text-3xl font-semibold">VGN SMART CALL</h2>
 
@@ -108,7 +108,7 @@ function Projects() {
 
           <details className="bg-violet-100 hover:bg-violet-200 rounded-2xl  group lg:px-20 md:px-15 sm:px-10 px-5 transition-all ease-in py-10 [&amp;_summary::-webkit-details-marker]:hidden">
             <summary className="flex items-center justify-between gap-8 text-gray-900 cursor-pointer">
-              <h2 className="text-4xl">03</h2>
+              {/* <h2 className="text-4xl">03</h2>   */}
 
               <h2 className="text-3xl font-semibold">TAXUS</h2>
 
