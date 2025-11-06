@@ -19,14 +19,14 @@ function Hero() {
             <a
               href="/cv/RakeshMahendran.pdf"
               download="RakeshMahendran_CV.pdf"
-              className="bg-white p-2 flex items-center justify-center font-bold text-black rounded-2xl hover:bg-[#ffd700] hover:scale-105 transition-all ease-in active:scale-[0.98] active:shadow-inner"
+              className="bg-white p-2 flex items-center justify-center font-bold text-black rounded-md hover:bg-[#ffd700] hover:scale-105 transition-all ease-in active:scale-[0.98] active:shadow-inner"
             >
               Download CV
             </a>
             <a
               href="https://wa.me/919384721690?text=Hi%20I%20came%20from%20your%20website!"
               target="_blank"
-              className="border-2 border-[#ffd700] hover:text-black p-2 font-bold text-white rounded-2xl hover:scale-105 hover:bg-[#ffd700] transition-all ease-in active:scale-[0.98] active:shadow-inner"
+              className="border-2 border-[#ffd700] hover:text-black p-2 font-bold text-white rounded-md hover:scale-105 hover:bg-[#ffd700] transition-all ease-in active:scale-[0.98] active:shadow-inner"
             >
               Get in Touch
             </a>
