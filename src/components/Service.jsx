@@ -12,7 +12,7 @@ function HeroSlider() {
 
   return (
     <div>
-      <span className="pl-15 my-10 pt-5 flex items-center" id="projects">
+      <span className="pl-15 my-10 pt-5 flex items-center" id="services">
         <span className="shrink-0 pe-4 text-gray-900 text-5xl font-bold">
           Service We Provide
         </span>
@@ -30,9 +30,7 @@ function HeroSlider() {
           >
             <div className="relative z-10 flex items-center justify-start h-full text-white px-4">
               <div className="lg:max-w-3xl md:max-w-lg w-full md:block flex items-center justify-center flex-col pl-4">
-                <p className="text-xl md:text-2xl text-gold font-bold pb-3">
-                  We Provide
-                </p>
+                <p className="text-xl md:text-2xl text-gold font-bold pb-3">We Provide</p>
                 <h1 className="text-4xl md:text-6xl md:text-start text-center md:w-fit w-[90vw] font-bold mb-4">
                   Digital Marketing Services
                 </h1>
