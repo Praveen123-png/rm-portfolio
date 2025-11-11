@@ -2,7 +2,11 @@ function Skills() {
   return (
     <>
       <span className="pl-15 pt-20 flex items-center">
-        <span className="shrink-0 pe-4 text-gray-900 text-5xl font-bold">
+        <span
+          data-aos="fade-up"
+          data-aos-duration="300"
+          className="shrink-0 pe-4 text-gray-900 text-5xl font-bold"
+        >
           My Stack
         </span>
 

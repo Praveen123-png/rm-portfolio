@@ -13,14 +13,22 @@ function HeroSlider() {
   return (
     <div>
       <span className="pl-15 my-10 pt-5 flex items-center" id="services">
-        <span className="shrink-0 pe-4 text-gray-900 text-5xl font-bold">
+        <span
+          className="pe-4 text-gray-900 md:text-5xl text-4xl font-bold"
+          data-aos="fade-up"
+          data-aos-duration="300"
+        >
           Service We Provide
         </span>
         <span className="h-1 rounded-full flex-1 bg-gradient-to-l from-transparent to-[#ffd700]"></span>
       </span>
 
       <div className="flex items-center justify-center rounded-2xl">
-        <div className="relative rounded-2xl h-[70vh] w-[80vw] overflow-hidden">
+        <div
+          className="relative rounded-2xl h-[70vh] w-[80vw] overflow-hidden"
+          data-aos="fade-right"
+          data-aos-duration="300"
+        >
           {/* 1️⃣ Slide 1 */}
           <div
             className={`absolute inset-0 w-full h-full  md:bg-[url('/images/dm.jpg')] bg-[url('/images/DMM.jpg')] bg-cover bg-center transition-opacity duration-1000
@@ -29,8 +37,10 @@ function HeroSlider() {
             // style={{ backgroundImage: `url("/images/dm.jpg")` }}
           >
             <div className="relative z-10 flex items-center justify-start h-full text-white px-4">
-              <div className="lg:max-w-3xl md:max-w-lg w-full md:block flex items-center justify-center flex-col pl-4">
-                <p className="text-xl md:text-2xl text-gold font-bold pb-3">We Provide</p>
+              <div className="lg:max-w-3xl space-y-2 md:max-w-lg w-full md:block flex items-center justify-center flex-col pl-4">
+                <p className="text-xl md:text-2xl text-gold font-bold pb-3">
+                  We Provide
+                </p>
                 <h1 className="text-4xl md:text-6xl md:text-start text-center md:w-fit w-[90vw] font-bold mb-4">
                   Digital Marketing Services
                 </h1>
@@ -53,20 +63,22 @@ function HeroSlider() {
             // style={{ backgroundImage: `url("/images/dm-2.jpg")` }}
           >
             <div className="relative z-10 flex items-center justify-end h-full text-white px-4">
-              <div className="lg:max-w-2xl md:max-w-lg md:pr-10 text-center md:text-right">
-                <p className="text-xl md:text-2xl text-gold font-bold pb-3">
+              <div className="lg:max-w-2xl space-y-2 md:max-w-lg md:pr-10 text-center md:text-right">
+                <p className="text-xl md:text-2xl text-gold font-bold">
                   Websites. Web Apps.
                 </p>
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">
                   One partner for all your digital needs.
                 </h1>
-                <a
-                  href="https://wa.me/919384721690?text=Can%20I%20We%20Talk%20About%20Websites!"
-                  className="bg-gold mt-5 w-fit p-2 font-bold text-black rounded-md hover:bg-[#ffd700] hover:scale-105 transition-all ease-in active:scale-[0.98] active:shadow-inner"
-                  target="_blank"
-                >
-                  Get In Touch
-                </a>
+                <div className="w-full flex items-center md:justify-end justify-center">
+                  <a
+                    href="https://wa.me/919384721690?text=Can%20I%20We%20Talk%20About%20Websites!"
+                    className="bg-gold md:mt-5 w-fit p-2 flex items-end md:justify-end justify-center font-bold text-black rounded-md hover:bg-[#ffd700] hover:scale-105 transition-all ease-in active:scale-[0.98] active:shadow-inner"
+                    target="_blank"
+                  >
+                    Get In Touch
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -79,8 +91,8 @@ function HeroSlider() {
             // style={{ backgroundImage: `url("/images/dm-3.jpg")` }}
           >
             <div className="relative z-10 flex items-center justify-start h-full text-white px-4">
-              <div className="lg:max-w-3xl md:block flex flex-col items-center md:max-w-lg pl-4">
-                <p className="text-xl md:text-2xl text-gold font-bold pb-3">
+              <div className="lg:max-w-3xl space-y-2 md:block flex flex-col items-center md:max-w-lg pl-4">
+                <p className="text-xl md:text-2xl text-gold font-bold">
                   Leading supplier of
                 </p>
                 <h1 className="text-4xl md:text-6xl font-bold mb-4">
