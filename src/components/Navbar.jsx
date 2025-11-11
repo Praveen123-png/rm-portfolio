@@ -5,9 +5,12 @@ function Navbar() {
         <div className="max-w-screen-xl px-4 mx-auto sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-[8vh]">
             <div className="md:flex md:items-center md:gap-12">
-              <h1 className="text-xl font-bold text-[#D1D1C7]">
+              <a
+                href="#"
+                className="text-xl font-bold transition-colors ease-in text-white hover:text-[#D1D1C7]"
+              >
                 RM | Engineer • Entrepreneur • Exporter
-              </h1>
+              </a>
             </div>
 
             <div className="hidden md:block">
@@ -15,17 +18,26 @@ function Navbar() {
                 <ul className="flex items-center gap-10 text-sm">
                   <li>
                     <a
-                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
+                      className="hover:text-white transition-colors ease-in text-xl font-bold text-[#D1D1C7]  transition-colors ease-in"
                       href="#about"
                     >
                       {" "}
                       About{" "}
                     </a>
                   </li>
+                  <li>
+                    <a
+                      className="hover:text-white text-xl font-bold text-[#D1D1C7] transition-colors ease-in"
+                      href="#services"
+                    >
+                      {" "}
+                      Services{" "}
+                    </a>
+                  </li>
 
                   <li>
                     <a
-                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
+                      className="hover:text-white text-xl font-bold text-[#D1D1C7] transition transition-colors ease-in"
                       href="#exp"
                     >
                       {" "}
@@ -35,7 +47,7 @@ function Navbar() {
 
                   <li>
                     <a
-                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
+                      className="hover:text-white text-xl font-bold text-[#D1D1C7] transition transition-colors ease-in"
                       href="#projects"
                     >
                       {" "}
@@ -45,16 +57,7 @@ function Navbar() {
 
                   <li>
                     <a
-                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
-                      href="#services"
-                    >
-                      {" "}
-                      Services{" "}
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-xl font-bold text-[#D1D1C7] transition hover:text-g"
+                      className="hover:text-white text-xl font-bold text-[#D1D1C7] transition transition-colors ease-in"
                       href="#contact"
                     >
                       {" "}

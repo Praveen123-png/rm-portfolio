@@ -5,26 +5,14 @@ function Footer() {
     <>
       <footer className="bg-white">
         <div className="mx-auto ">
-          {/* <div className="text-center">
-            <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl">
-              Contact For Business
-            </h2>
-
-            <p className="mx-auto mt-4 max-w-sm text-[#424242]">Just 1 step Away</p>
-
-            <a
-              href="tel:+919384721690"
-              target="_blank"
-              className="mt-8 inline-block rounded-2xl border border-indigo-600 px-12 py-3 text-sm font-medium text-indigo-600 hover:bg-indigo-600 hover:text-white focus:ring-3 focus:outline-hidden"
-            >
-              Say Hi
-            </a>
-          </div> */}
-
           <div className="mt-16  border-t pb-5 px-10 bg-[linear-gradient(0deg,_#65238c,_#210b2c)] border-gray-100 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
             <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
               <li className="group">
-                <a href="#" className="text-[#D1D1C7]  transition-all ease-linear">
+                <a
+                  href="https://wa.me/919047812365?text=Hi%20I%20came%20from%20your%20website!"
+                  className="text-[#D1D1C7]  transition-all ease-linear"
+                  target="_blank"
+                >
                   <span className="">© 2025. </span>
                   <span className="brandFont inline-block group-hover:scale-110 group-hover:-translate-y-4 transition-all">
                     U & P Devs.

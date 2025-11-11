@@ -10,17 +10,16 @@ import Skills from "./components/Skills.jsx";
 import Contact from "./components/Contact.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { DotLottieReact } from "@lottiefiles/dotlottie-react";
-
-// const App = () => {
-//   return (
-
-//   );
-// };
 
 function App() {
   useEffect(() => {
-    AOS.init({ duration: 0 });
+    AOS.init({
+      // duration: 800,
+      once: false,
+      mirror: true,
+      // offset: 100,
+      easing: "ease-in-out",
+    });
   }, []);
   return (
     <>
