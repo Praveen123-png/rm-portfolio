@@ -11,9 +11,9 @@ function Hero() {
             <span className="tg font-bold">Engineer</span> by profession,
             <span className="tg font-bold"> Entrepreneur</span> by vision, and
             <span className="tg font-bold"> Exporter</span> by passion — I drive
-            innovation, business growth, and global trade. With expertise in
-            engineering solutions and international markets, I help businesses
-            expand and connect worldwide.
+            innovation, business growth, and global trade. With expertise in engineering
+            solutions and international markets, I help businesses expand and connect
+            worldwide.
           </p>
           <div className="actions flex gap-5 translate-x-5">
             <a
@@ -39,7 +39,7 @@ function Hero() {
             alt="HERO"
             className="lg:h-[90vh] md:pt-0 md:h-[80vh] !h-70vh relative z-10"
           />
-          <div className="bg-[#BC96E6] hidden lg:block absolute top-[36%] z-2 opacity-40 h-[450px] w-[450px] rounded-full"></div>
+          <div className="bg-[#BC96E6] hidden lg:block absolute top-[33%] z-2 opacity-40 h-[440px] w-[440px] rounded-full"></div>
         </div>
       </div>
     </>
