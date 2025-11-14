@@ -39,12 +39,12 @@ function Experience() {
                   </h3>
                   <ul className="pt-3">
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Generated new business leads</strong> and built strategic
-                      client relationships to drive growth.
+                      <strong>Generated new business leads</strong> and built
+                      strategic client relationships to drive growth.
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Developed sales strategies</strong> and proposals aligned
-                      with client and company goals.
+                      <strong>Developed sales strategies</strong> and proposals
+                      aligned with client and company goals.
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
                       <strong>Collaborated across teams</strong> to boost client
@@ -70,33 +70,26 @@ function Experience() {
               >
                 <div className="-mt-2 hover:-translate-y-3 hover:bg-violet-200 bg-violet-100 transition-all ease-linear rounded-2xl p-5">
                   <time className="text-sm font-medium text-gray-700">
-                    Mar 2025 - Present
+                    Mar 2025 - June 2025
                   </time>
 
                   <h3 className="text-xl font-bold text-gray-900">
-                    Business Development Executive & Channel Partner — Multiple IT Firms
+                    Software Engineer — Ebitaus Private Limited
                   </h3>
-
-                  {/* <p className="mt-0.5 text-md pt-3 text-gray-700">
-                    Currently working as a <strong>Business Development Executive</strong>{" "}
-                    and <strong>Channel Partner</strong> for multiple{" "}
-                    <strong>IT companies</strong>, focusing on strategic partnerships,
-                    lead generation, and growth. Also manages an{" "}
-                    <strong>import and export business</strong> in fruits and vegetables,
-                    expanding cross-industry expertise in technology and trade operations.
-                  </p> */}
                   <ul className="pt-3">
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>GenBusiness Development Executive & Channel Partner</strong>{" "}
-                      driving partnerships and lead generation for IT firms.
+                      <strong>Software Engineer at Ebitaus Pvt Ltd</strong>,
+                      developing responsive web apps with Angular, Node.js, and
+                      PostgreSQL.
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Leading growth initiatives</strong> and expanding client
-                      networks across tech sectors.
+                      <strong>Optimized performance and scalability</strong>,
+                      enhancing usability and overall system efficiency.
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Managing import - export operations</strong> in fruits and
-                      vegetables, blending trade and tech expertise.
+                      <strong>Led UI/UX improvements</strong> for products like
+                      VGN Smart Call and School Chimes, boosting client
+                      engagement by 70%.
                     </li>
                   </ul>
                 </div>
@@ -122,32 +115,31 @@ function Experience() {
                   </time>
 
                   <h3 className="text-xl font-bold text-gray-900">
-                    Software Engineer — Ebitaus Private Limited
+                    Software Engineer — Savyasasy
                   </h3>
-
-                  {/* <p className="mt-0.5 text-md pt-3 text-gray-700">
-                    Served as a <strong>Software Engineer</strong> at{" "}
-                    <strong>Ebitaus Pvt Ltd</strong>, developing modern, responsive web
-                    applications using <strong>Angular, Node.js, and PostgreSQL</strong>.
-                    Focused on improving performance, usability, and scalability. Led
-                    UI/UX enhancements for major products such as
-                    <strong> VGN Smart Call</strong> and <strong>School Chimes</strong>,
-                    achieving over 70% better client engagement and smoother communication
-                    systems.
-                  </p> */}
 
                   <ul className="pt-3">
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Software Engineer at Ebitaus Pvt Ltd</strong>, developing
-                      responsive web apps with Angular, Node.js, and PostgreSQL.
+                      <strong>Software Engineer at Savyasasy</strong>, with over
+                      3 years of experience in software engineering and web
+                      development, I excel in both Front-End technologies and
+                      Back-End development
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Optimized performance and scalability</strong>, enhancing
-                      usability and overall system efficiency.
+                      I have consistently demonstrated a proven track record of
+                      <strong>
+                        {" "}
+                        architecting, developing, and implementing{" "}
+                      </strong>{" "}
+                      interactive websites.
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Led UI/UX improvements</strong> for products like VGN Smart
-                      Call and School Chimes, boosting client engagement by 70%.
+                      I also learned to manage website cookies and created a
+                      <strong>
+                        {" "}
+                        communication website for office colleagues.
+                      </strong>
+                      .
                     </li>
                   </ul>
                 </div>
@@ -174,7 +166,8 @@ function Experience() {
                   </time>
 
                   <h3 className="text-xl font-bold text-gray-900">
-                    Full-Stack Developer Intern — Xlicon Business Services Pvt. Ltd.
+                    Full-Stack Developer Intern — Xlicon Business Services Pvt.
+                    Ltd.
                   </h3>
 
                   {/* <p className="mt-0.5 text-md pt-3 text-gray-700">
@@ -195,12 +188,12 @@ function Experience() {
                       procurement.
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Developed with C#, .NET, and Visual Basic</strong>,
-                      enhancing backend logic and data handling.
+                      <strong>Developed with C#, .NET, and Visual Basic</strong>
+                      , enhancing backend logic and data handling.
                     </li>
                     <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                      <strong>Improved operational efficiency</strong> through optimized
-                      workflows and data management systems.
+                      <strong>Improved operational efficiency</strong> through
+                      optimized workflows and data management systems.
                     </li>
                   </ul>
                 </div>
@@ -232,16 +225,16 @@ function Experience() {
                 </h3>
                 <ul className="pt-3">
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Generated new business leads</strong> and built strategic
-                    client relationships to drive growth.
+                    <strong>Generated new business leads</strong> and built
+                    strategic client relationships to drive growth.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Developed sales strategies</strong> and proposals aligned with
-                    client and company goals.
+                    <strong>Developed sales strategies</strong> and proposals
+                    aligned with client and company goals.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Collaborated across teams</strong> to boost client engagement
-                    and overall performance.
+                    <strong>Collaborated across teams</strong> to boost client
+                    engagement and overall performance.
                   </li>
                 </ul>
               </div>
@@ -249,46 +242,6 @@ function Experience() {
           </li>
 
           {/* 2 */}
-          <li className="relative -ms-1.5 flex items-start gap-4">
-            <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
-
-            <div data-aos="fade-up-left" data-aos-easing="linear" data-aos-duration="300">
-              <div className="-mt-2 hover:-translate-y-3 hover:bg-violet-200 transition-all ease-linear bg-violet-100 rounded-2xl p-5">
-                <time className="text-sm font-medium text-gray-700">
-                  Mar 2025 - Present
-                </time>
-
-                <h3 className="text-xl font-bold text-gray-900">
-                  Business Development Executive & Channel Partner — Multiple IT Firms
-                </h3>
-
-                {/* <p className="mt-0.5 text-md pt-3 text-gray-700">
-                    Currently working as a <strong>Business Development Executive</strong>{" "}
-                    and <strong>Channel Partner</strong> for multiple{" "}
-                    <strong>IT companies</strong>, focusing on strategic partnerships,
-                    lead generation, and growth. Also manages an{" "}
-                    <strong>import and export business</strong> in fruits and vegetables,
-                    expanding cross-industry expertise in technology and trade operations.
-                  </p> */}
-                <ul className="pt-3">
-                  <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>GenBusiness Development Executive & Channel Partner</strong>{" "}
-                    driving partnerships and lead generation for IT firms.
-                  </li>
-                  <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Leading growth initiatives</strong> and expanding client
-                    networks across tech sectors.
-                  </li>
-                  <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Managing import - export operations</strong> in fruits and
-                    vegetables, blending trade and tech expertise.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </li>
-
-          {/* 3 */}
           <li className="relative -ms-1.5 flex items-start gap-4">
             <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
 
@@ -319,16 +272,64 @@ function Experience() {
 
                 <ul className="pt-3">
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Software Engineer at Ebitaus Pvt Ltd</strong>, developing
-                    responsive web apps with Angular, Node.js, and PostgreSQL.
+                    <strong>Software Engineer at Ebitaus Pvt Ltd</strong>,
+                    developing responsive web apps with Angular, Node.js, and
+                    PostgreSQL.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Optimized performance and scalability</strong>, enhancing
-                    usability and overall system efficiency.
+                    <strong>Optimized performance and scalability</strong>,
+                    enhancing usability and overall system efficiency.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Led UI/UX improvements</strong> for products like VGN Smart
-                    Call and School Chimes, boosting client engagement by 70%.
+                    <strong>Led UI/UX improvements</strong> for products like
+                    VGN Smart Call and School Chimes, boosting client engagement
+                    by 70%.
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+
+          {/* 3 */}
+          <li className="relative -ms-1.5 flex items-start gap-4">
+            <span className="size-3 shrink-0 rounded-full bg-[#FFD700]"></span>
+
+            <div
+              data-aos="fade-up-right"
+              data-aos-easing="linear"
+              data-aos-duration="300"
+            >
+              <div className="-mt-2 hover:-translate-y-3 hover:bg-violet-200 transition-all ease-linear bg-violet-100 rounded-2xl p-5">
+                <time className="text-sm font-medium text-gray-700">
+                  Aug 2022 - Feb 2025
+                </time>
+
+                <h3 className="text-xl font-bold text-gray-900">
+                  Software Engineer — Savyasasy
+                </h3>
+
+                <ul className="pt-3">
+                  <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
+                    <strong>Software Engineer at Savyasasy</strong>, with over 3
+                    years of experience in software engineering and web
+                    development, I excel in both Front-End technologies and
+                    Back-End development
+                  </li>
+                  <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
+                    I have consistently demonstrated a proven track record of
+                    <strong>
+                      {" "}
+                      architecting, developing, and implementing{" "}
+                    </strong>{" "}
+                    interactive websites.
+                  </li>
+                  <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
+                    I also learned to manage website cookies and created a
+                    <strong>
+                      {" "}
+                      communication website for office colleagues.
+                    </strong>
+                    .
                   </li>
                 </ul>
               </div>
@@ -350,7 +351,8 @@ function Experience() {
                 </time>
 
                 <h3 className="text-xl font-bold text-gray-900">
-                  Full-Stack Developer Intern — Xlicon Business Services Pvt. Ltd.
+                  Full-Stack Developer Intern — Xlicon Business Services Pvt.
+                  Ltd.
                 </h3>
 
                 {/* <p className="mt-0.5 text-md pt-3 text-gray-700">
@@ -371,12 +373,12 @@ function Experience() {
                     procurement.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Developed with C#, .NET, and Visual Basic</strong>, enhancing
-                    backend logic and data handling.
+                    <strong>Developed with C#, .NET, and Visual Basic</strong>,
+                    enhancing backend logic and data handling.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Improved operational efficiency</strong> through optimized
-                    workflows and data management systems.
+                    <strong>Improved operational efficiency</strong> through
+                    optimized workflows and data management systems.
                   </li>
                 </ul>
               </div>
