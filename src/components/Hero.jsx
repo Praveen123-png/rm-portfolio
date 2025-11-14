@@ -39,7 +39,7 @@ function Hero() {
             alt="HERO"
             className="lg:h-[90vh] md:pt-0 md:h-[80vh] !h-70vh relative z-10"
           />
-          <div className="bg-[#BC96E6] hidden lg:block absolute top-[40%] z-2 opacity-40 h-[450px] w-[450px] rounded-full"></div>
+          <div className="bg-[#BC96E6] hidden lg:block absolute top-[36%] z-2 opacity-40 h-[450px] w-[450px] rounded-full"></div>
         </div>
       </div>
     </>
