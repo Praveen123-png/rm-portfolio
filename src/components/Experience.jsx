@@ -225,25 +225,16 @@ function Experience() {
                 </h3>
                 <ul className="pt-3">
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Software Engineer at Savyasasy</strong>, with over 3
-                    years of experience in software engineering and web
-                    development, I excel in both Front-End technologies and
-                    Back-End development
+                    <strong>Generated new business leads</strong> and built
+                    strategic client relationships to drive growth.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    I have consistently demonstrated a proven track record of
-                    <strong>
-                      {" "}
-                      architecting, developing, and implementing{" "}
-                    </strong>{" "}
-                    interactive websites.
+                    <strong>Developed sales strategies</strong> and proposals
+                    aligned with client and company goals.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    I also learned to manage website cookies and created a
-                    <strong>
-                      {" "}
-                      communication website for office colleagues.
-                    </strong>
+                    <strong>Collaborated across teams</strong> to boost client
+                    engagement and overall performance.
                   </li>
                 </ul>
               </div>
@@ -319,18 +310,26 @@ function Experience() {
 
                 <ul className="pt-3">
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Software Engineer at Ebitaus Pvt Ltd</strong>,
-                    developing responsive web apps with Angular, Node.js, and
-                    PostgreSQL.
+                    <strong>Software Engineer at Savyasasy</strong>, with over 3
+                    years of experience in software engineering and web
+                    development, I excel in both Front-End technologies and
+                    Back-End development
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Optimized performance and scalability</strong>,
-                    enhancing usability and overall system efficiency.
+                    I have consistently demonstrated a proven track record of
+                    <strong>
+                      {" "}
+                      architecting, developing, and implementing{" "}
+                    </strong>{" "}
+                    interactive websites.
                   </li>
                   <li className="relative pl-4 before:content-['•'] before:text-[#210b2c] before:absolute before:left-0 before:text-primary before:text-lg">
-                    <strong>Led UI/UX improvements</strong> for products like
-                    VGN Smart Call and School Chimes, boosting client engagement
-                    by 70%.
+                    I also learned to manage website cookies and created a
+                    <strong>
+                      {" "}
+                      communication website for office colleagues.
+                    </strong>
+                    .
                   </li>
                 </ul>
               </div>
